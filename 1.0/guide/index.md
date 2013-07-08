@@ -1,4 +1,4 @@
-## 综述
+﻿## 综述
 
 ## 快速使用
 
@@ -23,8 +23,8 @@
 
 初始化方法
 
-	    S.use('gallery/ligntBox/1.0/index,gallery/ligntBox/1.0/index.css', function (S, LigntBox) {
-	        var ligntBox = new LigntBox({
+	    S.use('gallery/lightBox/1.0/index,gallery/lightBox/1.0/index.css', function (S, LightBox) {
+	        var lightBox = new LightBox({
 	            container: "#container", //父级盒子ID
 	            eles: ".J_lightbox", //需要弹出的图片外部链接样式
 	            layer: "#lightbox", //弹出层ID
