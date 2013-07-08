@@ -1,7 +1,7 @@
 /*
 combined files : 
 
-gallery/ligntBox/1.0/index
+gallery/lightBox/1.0/index
 
 */
 /**
@@ -9,7 +9,7 @@ gallery/ligntBox/1.0/index
  * @author Letao<mailzwj@126.com>
  * @module ligntBox
  **/
-KISSY.add('gallery/ligntBox/1.0/index',function (S, Node,Base) {
+KISSY.add('gallery/lightBox/1.0/index',function (S, Node,Base) {
     var $ = Node.all, D = S.DOM, E = S.Event;
     /**
      * KISSY图片LightBox组件
@@ -17,7 +17,7 @@ KISSY.add('gallery/ligntBox/1.0/index',function (S, Node,Base) {
      * @constructor
      * @extends Base
      */
-    function LigntBox(cfg) {
+    function LightBox(cfg) {
         var self = this;
         /**
          * 参数说明
@@ -36,9 +36,9 @@ KISSY.add('gallery/ligntBox/1.0/index',function (S, Node,Base) {
         this.init();
 
         //调用父类构造函数
-        LigntBox.superclass.constructor.call(self, cfg);
+        LightBox.superclass.constructor.call(self, cfg);
     }
-    S.extend(LigntBox, Base, /** @lends LigntBox.prototype*/{
+    S.extend(LightBox, Base, /** @lends LigntBox.prototype*/{
         isShow: false,
         currentImg: null,
         log: function(err) { //无用的方法，测试时使用
@@ -255,7 +255,7 @@ KISSY.add('gallery/ligntBox/1.0/index',function (S, Node,Base) {
     }, {ATTRS : /** @lends LigntBox*/{
 
     }});
-    return LigntBox;
+    return LightBox;
 }, {requires:['node', 'base']});
 
 
