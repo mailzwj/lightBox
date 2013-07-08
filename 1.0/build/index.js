@@ -7,7 +7,7 @@ gallery/lightBox/1.0/index
 /**
  * @fileoverview KISSY图片LightBox组件
  * @author Letao<mailzwj@126.com>
- * @module ligntBox
+ * @module lightBox
  **/
 KISSY.add('gallery/lightBox/1.0/index',function (S, Node,Base) {
     var $ = Node.all, D = S.DOM, E = S.Event;
