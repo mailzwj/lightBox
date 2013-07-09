@@ -1,10 +1,12 @@
-﻿## 综述
-
-## 快速使用
+## 综述
 
 * 版本：v1.0
 * 教程：[http://gallery.kissyui.com/lightBox/1.0/guide/index.html](http://gallery.kissyui.com/lightBox/1.0/guide/index.html)
 * demo：[http://gallery.kissyui.com/lightBox/1.0/demo/index.html](http://gallery.kissyui.com/lightBox/1.0/demo/index.html)
+
+## 快速使用
+
+点击缩略图浮层显示大图，可点击键盘←、→键切换图片，也可以鼠标点击左右箭头切换。按下键盘Esc键和点击关闭按钮效果一致。
 
 ### 初始化组件
 
