@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
 <head>
     <meta charset="utf-8"/>
@@ -92,7 +92,7 @@
 </div>
 <script>
     var S = KISSY;
-    // S.Config.debug = true;
+    S.Config.debug = true;
     if (S.Config.debug) {
         var srcPath = "../../../";
         S.config({
@@ -107,8 +107,8 @@
         });
     }
 
-    S.use('gallery/ligntBox/1.0/index,gallery/ligntBox/1.0/index.css', function (S, LigntBox) {
-        var ligntBox = new LigntBox({
+    S.use('gallery/lightBox/1.0/index,gallery/lightBox/1.0/index.css', function (S, LightBox) {
+        var lightBox = new LightBox({
             container: "#container", //父级盒子ID
             eles: ".J_lightbox", //需要弹出的图片外部链接样式
             layer: "#lightbox", //弹出层ID
